@@ -21,6 +21,6 @@ def run_ch7_example():
 	# TODO: Enregister le callback sous la commande "say_hi".
 	bot.register_command("say_hi", callback)
 	# TODO: Mettre votre jeton (incluant le "oauth:") et le nom du compte Twitch associé.
-	bot.connect_and_join("oauth:...", "...", "chosson")
+	bot.connect_and_join("oauth:...", "...", "samsei109")
 	bot.run()
 

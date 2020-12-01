@@ -57,7 +57,7 @@ On veut que le chatbot réponde à la commande `!say_hi` avec un certain message
 
 Il nous faut donc créer une fonction de rappel qui envoie un message dans le chat à l'aide du bot connecté. Toutefois, on ne veut pas *hardcoder* le bot et le message directement dans la fonction. On va plutôt faire une fonction qui crée le callback à en lui passant le bot et le message. Le callback retourné est ensuite enregistré avec `register_command()`.
 
-On vous dit d'insérer votre jeton OAuth, votre nom de compte et le channel cible (le chatroom dans lequel votre chatbot va parler). C'est évidemment *chosson* pour aujourd'hui si vous voulez que votre bot soit visible à la classe. Vous pouvez aussi faire les tests sur votre propre chaine pour ne pas polluer le chatroom du cours. En dehors du cours, faites vos tests sur votre propre chaine et ne spammez pas mon chat avec vos chatbot SVP.
+On vous dit d'insérer votre jeton OAuth, votre nom de compte et le channel cible (le chatroom dans lequel votre chatbot va parler). C'est évidemment *samsei109* pour aujourd'hui si vous voulez que votre bot soit visible à la classe. Vous pouvez aussi faire les tests sur votre propre chaine pour ne pas polluer le chatroom du cours. En dehors du cours, faites vos tests sur votre propre chaine et ne spammez pas mon chat avec vos chatbot SVP.
 
 Le code à compléter est dans *ch7.py*
 
